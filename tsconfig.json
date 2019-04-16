@@ -1,0 +1,19 @@
+{
+	"files": [
+		"src/server.ts",
+	],
+
+  "include": [
+    "types/**/*"
+  ],
+
+	"compilerOptions": {
+    "sourceMap": true,
+		"noImplicitAny": true,
+		"target": "es6",
+		"module": "commonjs",
+		"types": [
+			"node"
+		]
+	}
+}

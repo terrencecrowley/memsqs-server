@@ -1,0 +1,38 @@
+{
+  "name": "@terrencecrowley/memsqs-server",
+  "version": "1.0.0",
+  "description": "Server for in-memory simple queuing service ala AWS SQS.",
+  "main": "dist/server.js",
+  "scripts": {
+    "test": "No test",
+    "build": "webpack",
+    "webpack": "node_modules/.bin/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terrencecrowley/memsqs-server.git"
+  },
+  "keywords": [
+    "GeoJSON",
+    "Typescript"
+  ],
+  "author": "Terry Crowley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/terrencecrowley/memsqs-server/issues"
+  },
+  "homepage": "https://github.com/terrencecrowley/memsqs-server#readme",
+  "devDependencies": {
+    "@types/node": "10.12.23",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^5.3.3",
+    "tsify": "^4.0.1",
+    "typescript": "^3.3.3",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "@terrencecrowley/memsqs": "^1.0.1",
+    "@terrencecrowley/util": "^1.0.6"
+  }
+}
