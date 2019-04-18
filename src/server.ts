@@ -21,6 +21,6 @@ function reportStats(): void
   console.log(Util.Now());
   console.log(`INFO: ${qm.nSent} messages sent`);
   console.log(`INFO: ${qm.nReceived} messages received`);
-  console.log(`INFO: ${qm.nRemoved} messages received`);
-  console.log(`INFO: ${qm.nCulled} messages received`);
+  console.log(`INFO: ${qm.nRemoved} messages removed`);
+  console.log(`INFO: ${qm.nCulled} messages culled`);
 }
