@@ -32,8 +32,8 @@
     "webpack-cli": "^3.2.3"
   },
   "dependencies": {
-    "@terrencecrowley/jsonstream": "^1.0.10",
-    "@terrencecrowley/memsqs": "^1.0.21",
+    "@terrencecrowley/jsonstream": "^1.0.13",
+    "@terrencecrowley/memsqs": "^1.0.27",
     "@terrencecrowley/util": "^1.0.15"
   }
 }
