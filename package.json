@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "@terrencecrowley/jsonstream": "^1.0.17",
-    "@terrencecrowley/memsqs": "^1.0.46",
+    "@terrencecrowley/memsqs": "^1.0.48",
     "@terrencecrowley/util": "^1.0.19"
   }
 }
