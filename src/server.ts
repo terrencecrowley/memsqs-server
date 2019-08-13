@@ -1,5 +1,5 @@
-import * as Util from '@terrencecrowley/util';
-import * as Q from '@terrencecrowley/memsqs';
+import * as Util from '@dra2020/util';
+import * as Q from '@dra2020/memsqs';
 
 const Port: number = Number(process.env.PORT) || 14141;
 const Interval: number = Number(process.env.SQS_REPORTING_INTERVAL) || (1000 * 60 * 60);
